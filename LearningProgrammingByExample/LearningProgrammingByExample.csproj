@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="DropDownList_Example.aspx" />
     <Content Include="GridView_Example.aspx" />
+    <Content Include="Images\delete.gif" />
+    <Content Include="Images\edit.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
