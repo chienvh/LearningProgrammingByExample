@@ -61,6 +61,7 @@
     <Content Include="GridView_Example.aspx" />
     <Content Include="Images\delete.gif" />
     <Content Include="Images\edit.png" />
+    <Content Include="Repeater_Example.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +80,13 @@
       <DependentUpon>GridView_Example.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repeater_Example.aspx.cs">
+      <DependentUpon>Repeater_Example.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repeater_Example.aspx.designer.cs">
+      <DependentUpon>Repeater_Example.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
