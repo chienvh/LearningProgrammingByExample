@@ -62,6 +62,7 @@
     <Content Include="Images\delete.gif" />
     <Content Include="Images\edit.png" />
     <Content Include="Repeater_Example.aspx" />
+    <Content Include="Repeater_UsingStoreProcedure.aspx" />
     <Content Include="UpdatePanel-With-Repeater_Example.aspx" />
     <Content Include="UpdatePanel_Example.aspx" />
     <Content Include="Web.config" />
@@ -89,6 +90,13 @@
     <Compile Include="Repeater_Example.aspx.designer.cs">
       <DependentUpon>Repeater_Example.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Repeater_UsingStoreProcedure.aspx.cs">
+      <DependentUpon>Repeater_UsingStoreProcedure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repeater_UsingStoreProcedure.aspx.designer.cs">
+      <DependentUpon>Repeater_UsingStoreProcedure.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UpdatePanel-With-Repeater_Example.aspx.cs">
       <DependentUpon>UpdatePanel-With-Repeater_Example.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,6 +120,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
