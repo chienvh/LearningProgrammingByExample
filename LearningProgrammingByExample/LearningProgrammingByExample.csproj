@@ -57,12 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Database\TreeView_HierarchicalData_UsingStoreProcedure_SCRIPT.sql" />
     <Content Include="DropDownList_Example.aspx" />
     <Content Include="GridView_Example.aspx" />
     <Content Include="Images\delete.gif" />
     <Content Include="Images\edit.png" />
     <Content Include="Repeater_Example.aspx" />
     <Content Include="Repeater_UsingStoreProcedure.aspx" />
+    <Content Include="TreeView_HierarchicalData_UsingStoreProcedure.aspx" />
     <Content Include="UpdatePanel-With-Repeater_Example.aspx" />
     <Content Include="UpdatePanel_Example.aspx" />
     <Content Include="Web.config" />
@@ -96,6 +98,13 @@
     </Compile>
     <Compile Include="Repeater_UsingStoreProcedure.aspx.designer.cs">
       <DependentUpon>Repeater_UsingStoreProcedure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView_HierarchicalData_UsingStoreProcedure.aspx.cs">
+      <DependentUpon>TreeView_HierarchicalData_UsingStoreProcedure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreeView_HierarchicalData_UsingStoreProcedure.aspx.designer.cs">
+      <DependentUpon>TreeView_HierarchicalData_UsingStoreProcedure.aspx</DependentUpon>
     </Compile>
     <Compile Include="UpdatePanel-With-Repeater_Example.aspx.cs">
       <DependentUpon>UpdatePanel-With-Repeater_Example.aspx</DependentUpon>
