@@ -24,11 +24,12 @@ Day 5: Sep 15, 2015
 Day 6: Sep 15, 2015
 	UpdatePanel With Repeater Asp.Net C#		
 Day 7: Sep 18, 2015	
-	Calling Stored Procedures in Asp.Net C#	
+	Calling Stored Procedures in Asp.Net C#		
 Day 8: Sep 20, 2015	
 	TreeView and Hierarchical Data Asp.net C#	
 Day 9: Oct 01, 2015	
-	Multi Nested Repeater Controls in ASP.NET C#
+	Multi Nested Repeater Controls in ASP.NET C#		
 Day 10: Oct 09, 2015
-	Perfect Pagination with Repeater Control in ASP.Net	
+	Perfect Pagination with Repeater Control in ASP.Net		
+	
 	
