@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Database\NestedRepeater_Example_SCRIPT.sql" />
     <Content Include="Database\TreeView_HierarchicalData_UsingStoreProcedure_SCRIPT.sql" />
     <Content Include="DropDownList_Example.aspx" />
     <Content Include="GridView_Example.aspx" />
@@ -64,6 +65,7 @@
     <Content Include="Images\edit.png" />
     <Content Include="NestedRepeater_Example.aspx" />
     <Content Include="Repeater_Example.aspx" />
+    <Content Include="Repeater_Pagination.aspx" />
     <Content Include="Repeater_UsingStoreProcedure.aspx" />
     <Content Include="TreeView_HierarchicalData_UsingStoreProcedure.aspx" />
     <Content Include="UpdatePanel-With-Repeater_Example.aspx" />
@@ -99,6 +101,13 @@
     </Compile>
     <Compile Include="Repeater_Example.aspx.designer.cs">
       <DependentUpon>Repeater_Example.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Repeater_Pagination.aspx.cs">
+      <DependentUpon>Repeater_Pagination.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repeater_Pagination.aspx.designer.cs">
+      <DependentUpon>Repeater_Pagination.aspx</DependentUpon>
     </Compile>
     <Compile Include="Repeater_UsingStoreProcedure.aspx.cs">
       <DependentUpon>Repeater_UsingStoreProcedure.aspx</DependentUpon>
