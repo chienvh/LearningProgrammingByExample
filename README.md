@@ -1,11 +1,11 @@
-# LearningProgrammingByExample
------------------------------
+# Learning Programming By Example
+---------------------------------
 *Created by:	
 Full Name: Chien Vu Hoang	
 Skype: chien.vh	
 Email: chien.vh@gmail.com	
 FB: facebook.com/chienvh	
------------------------------
+---------------------------------
 
 This source code will contain example using asp.net C#.  Let me know if you have any comments.
 
